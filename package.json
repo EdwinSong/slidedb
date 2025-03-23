@@ -1,0 +1,23 @@
+{
+  "name": "slidev",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@monaco-editor/loader": "^1.5.0",
+    "@slidev/cli": "^51.4.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "monaco-editor": "^0.52.2",
+    "mysql2": "^3.14.0",
+    "sql.js": "^1.13.0",
+    "vue": "^3.5.13"
+  }
+}
